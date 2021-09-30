@@ -9,7 +9,6 @@ public class q003 {
 		System.out.println("Escreva F para Feminino ou M para Masculino.");
 		System.out.print("Opção: ");
 		opcao = entrada.next();
-		System.out.println(opcao);
 		if (opcao.equals(feminino)) {
 			System.out.println("A opção foi Feminino");
 		} else if (opcao.equals(masculino)) {
