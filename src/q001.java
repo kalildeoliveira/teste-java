@@ -1,4 +1,4 @@
-// questao 01 - pede dois numeros e imprime o maior
+// questao 01 - lê dois numeros e imprime o maior
 
 import java.util.Scanner;
 
