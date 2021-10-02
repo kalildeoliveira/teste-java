@@ -1,4 +1,4 @@
-// questão 16 - lê duas notas, calcula os conceitos
+// questão 17 - lê duas notas, calcula os conceitos
 //		A para notas entre 9 e 10
 //		B para notas entre 7,5 e 9
 //		C para notas entre 6 e 7,5
