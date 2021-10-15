@@ -1,4 +1,4 @@
-// questao 01 - lê dois numeros e imprime o maior
+// questao 01 - lÃª dois numeros e imprime o maior
 
 import java.util.Scanner;
 
@@ -6,16 +6,18 @@ public class q001 {
 	public static void main (String [] args) { 
 		Scanner entrada = new Scanner (System.in);
 		int numero1, numero2, maior=0;
-		System.out.println("Digite dois números.");
+		System.out.println("Digite dois nÃºmeros.");
 		System.out.print("Numero1: ");
 		numero1 = entrada.nextInt();
 		System.out.print("Numero2: ");
 		numero2 = entrada.nextInt();
 		if (numero1 > numero2) { 
 			maior = numero1;
-		} else {
+		} else if (numero1<numero2) {
 			maior=numero2;
+		} else {
+			System.out.print ("Os nÃºmeros sÃ£o iguais");
 		}
-		System.out.println("\nO maior número é " + maior);
+		System.out.println("\nO maior nÃºmero Ã© " + maior);
 		}
 }
